@@ -1,0 +1,34 @@
+{
+    "name": "raviyatechnical/laravel-helper-generator",
+    "description": "Generate Laravel Helper",
+    "keywords": [
+        "generator",
+        "php",
+        "cli",
+        "laravel",
+        "artisan",
+        "helper",
+        "pattern"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhargav Raviya",
+            "email": "raviyatechnical@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RaviyaTechnical\\HelperGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RaviyaTechnical\\HelperGenerator\\HelperGeneratorServiceProvider"
+            ]
+        }
+    }
+}
